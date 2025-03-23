@@ -349,13 +349,13 @@ section img {
 }
 
 
-#faq-container {
+/* #faq-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start; /* <-- Important change */
+    justify-content: flex-start; /* <-- Important change 
     align-items: flex-start;
     gap: 20px;
-}
+} */
 
 #faq-container img {
     width: 250px;
