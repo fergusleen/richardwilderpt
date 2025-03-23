@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Example updated HTML head section -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard Wilder PT - HYROX Training</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/brutal-type">
+</head>
+
+<body>
+    <!-- Navbar with dropdown -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="#">
+                <div class="brand-text">
+                    RICHARD<br>WILDER PT
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarAboutDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            ABOUT
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarAboutDropdown">
+                            <li><a class="dropdown-item" href="#about">ABOUT ME</a></li>
+                            <li><a class="dropdown-item" href="#testimonials">TESTIMONIALS</a></li>
+                            <li><a class="dropdown-item" href="#achievements">ACHIEVEMENTS</a></li>
+                            <li><a class="dropdown-item" href="#faq-container">HYROX FAQ</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#approach">APPROACH</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    <li class="nav-item d-flex align-items-center">
+                        <a href="https://www.facebook.com/richardwilderpt" class="nav-link px-2">
+                            <i class="fa-brands fa-facebook fa-lg text-warning"></i>
+                        </a>
+                        <a href="https://www.instagram.com/richardwilderpt" class="nav-link px-2">
+                            <i class="fa-brands fa-instagram fa-lg text-warning"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <a href="https://www.strava.com/athletes/2094078" class="nav-link px-2" target="_blank">
+                            <i class="fa-brands fa-strava fa-lg text-warning"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="countdown" class="text-center my-4">
+        <h3>Countdown to HYROX Cardiff: <span id="days-left"></span> days!</h3>
+    </div>
+
+    <section id="hero" class="text-white d-flex align-items-center justify-content-center"
+        style="background: url('hyrox_training.jpg') no-repeat center center/cover; height: 80vh; position: relative; text-align: left;">
+        <div class="overlay"></div>
+        <div class="container position-relative">
+            <h2 class="display-3 text-shadow">ELEVATE YOUR FITNESS WITH HYROX TRAINING</h2>
+            <p class="lead">Personalized training to help you compete and perform at your best.</p>
+
+            <a href="#contact" class="btn btn-warning btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <section id="approach" class="container py-5 d-flex align-items-center">
+        <div class="approach-text">
+            <h2>My Approach</h2>
+            <p>With over 20 years of experience in coaching and personal training, I have learned the importance of
+                treating every athlete as an individual. Whether you're new to HYROX or looking to refine your
+                competition performance, I tailor training programs to meet your specific needs.</p>
+            <p>Every journey begins with a single step. If you're ready to improve your endurance, strength, and
+                functional fitness for HYROX, get in touch today.</p>
+        </div>
+        <img src="images/2.jpeg" alt="Approach" class="about-image rounded ms-3">
+    </section>
+
+    <section id="services" class="container py-5 bg-secondary text-white d-flex align-items-center">
+        <div class="flex-grow-1">
+            <h2>What I Offer</h2>
+            <ul>
+                <li>One-on-One HYROX Training</li>
+                <li>Buddy Training: Bring a partner at no extra cost</li>
+                <li>Sports Massage & Recovery</li>
+                <li>Corporate Group Training</li>
+                <li>Running & Rowing Coaching</li>
+            </ul>
+        </div>
+        <img src="images/5.jpeg" alt="Services" class="about-image rounded">
+    </section>
+
+    <section id="testimonials" class="container py-5 d-flex align-items-center">
+        <div class="flex-grow-1">
+            <h2>Testimonials</h2>
+            <p>"Richard’s HYROX training transformed my fitness and competition performance." - Paul</p>
+            <p>"Richard's tailored approach helped me overcome injury and regain strength." - Mari</p>
+            <p>"I achieved results I didn't think were possible!" - Alex</p>
+        </div>
+        <img src="images/6.jpeg" alt="Client Training" class="about-image">
+    </section>
+
+    <section id="achievements" class="container py-5 bg-secondary text-white rounded d-flex align-items-center">
+        <div class="achievements-text">
+            <h2>Achievements & Goals</h2>
+            <p>With over 30 years of competitive experience:</p>
+            <ul>
+                <li><strong>Triathlon:</strong> European Champion, World Bronze Medalist, Winner of The Outlaw
+                    Triathlon.</li>
+                <li><strong>Rowing:</strong> 2× Commonwealth Bronze Medalist, British Champion, Indoor Rowing Triple
+                    Crown (Welsh, British, World Champion).</li>
+                <li><strong>Running:</strong> First Welsh athlete with 500 parkruns. PBs: 5K (16:30), 10K (34:10), Half
+                    Marathon (1:14:53).</li>
+            </ul>
+            <h3 class="mt-3">HYROX Racing:</h3>
+            <ul>
+                <li><strong>Singles:</strong> 1hr 04min</li>
+                <li><strong>Doubles:</strong> 57min</li>
+            </ul>
+            <h4 class="mt-3">Goals for 2025:</h4>
+            <ul>
+                <li>Break 60-min in HYROX Singles</li>
+                <li>Target Age Category World Record</li>
+                <li>Continue refining HYROX-specific training</li>
+            </ul>
+        </div>
+        <img src="images/8.jpeg" alt="Achievement Image" class="about-image">
+    </section>
+
+
+    <section id="faq-container" class="container py-5">
+        <div class="faq-content">
+            <h2>HYROX Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="hyroxFAQ">
+
+                <!-- FAQ Item 1 -->
+                <div class="accordion-item bg-dark text-white">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed bg-secondary text-white" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            What is a HYROX Race?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#hyroxFAQ">
+                        <div class="accordion-body">
+                            <p>
+                                Hyrox is the ultimate fitness competition for those who crave a true test of
+                                endurance, strength, and mental grit. Combining high-intensity cardio with
+                                functional strength exercises, Hyrox offers a uniquely balanced challenge designed
+                                to push athletes of all levels to their limits—and beyond.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="accordion-item bg-dark text-white">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed bg-secondary text-white" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            What is the HYROX Format?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#hyroxFAQ">
+                        <div class="accordion-body">
+                            <p>
+                                Every Hyrox race follows the same adrenaline-pumping structure:
+                            </p>
+                            <ul>
+                                <li>Run 1 km → Complete a Functional Workout → Repeat 8 Times.</li>
+                            </ul>
+                            <p>This means you'll tackle 8 kilometers of running paired with 8 distinct strength
+                                stations, creating a relentless, full-body challenge that rewards both speed and
+                                power.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="accordion-item bg-dark text-white">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed bg-secondary text-white" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            What are the 8 HYROX Workouts?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#hyroxFAQ">
+                        <div class="accordion-body">
+                            <ol>
+                                <li><strong>1,000m Ski Erg:</strong> Full-body endurance and pacing.</li>
+                                <li><strong>50m Sled Push:</strong> Leg power, core stability, mental resilience.
+                                </li>
+                                <li><strong>50m Sled Pull:</strong> Back, glute, and grip strength.</li>
+                                <li><strong>80m Burpee Broad Jumps:</strong> Explosive power, agility, stamina.</li>
+                                <li><strong>1,000m Rowing:</strong> Cardiovascular capacity, coordination.</li>
+                                <li><strong>200m Farmers Carry:</strong> Grip strength, stability, mental focus.
+                                </li>
+                                <li><strong>100m Sandbag Lunges:</strong> Leg endurance, balance, pain tolerance.
+                                </li>
+                                <li><strong>100 Wall Balls:</strong> Full-body power, rhythm, grit to finish strong.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="accordion-item bg-dark text-white">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed bg-secondary text-white" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                            Who Can Compete in HYROX?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#hyroxFAQ">
+                        <div class="accordion-body">
+                            <p>
+                                Hyrox isn’t just for elite athletes. With divisions for all skill levels:
+                            </p>
+                            <ul>
+                                <li>Individual (Men’s/Women’s Pro or Open)</li>
+                                <li>Doubles/Mixed Doubles (split work with a partner)</li>
+                                <li>Relay Teams (4-6 members)</li>
+                                <li>Scaled Options (lighter weights in Open division)</li>
+                                <li>Age Group Categories (fair competition for all ages)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="accordion-item bg-dark text-white">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed bg-secondary text-white" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                            Why Does HYROX Stand Out?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#hyroxFAQ">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Global Consistency: The same format worldwide—compare your times across Berlin,
+                                    New York, or Sydney. </li>
+                                <li>Controlled Environment: No mud, no ice baths. Just you vs your fitness in an
+                                    indoor arena. </li>
+                                <li>Community-Driven Join a passionate, growing network of athletes who train, race,
+                                    and celebrate together. </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="images/10.jpeg" alt="HYROX FAQ Image" class="about-image">
+    </section>
+
+
+
+
+    <section id="about" class="container py-5 d-flex align-items-center">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>I'm Richard, a 50-something personal trainer based in Cardiff. When I was younger, I was fortunate enough
+                to represent Wales and Great Britain competing worldwide at many international competitions.</p>
+            <p>Like everyone, I am still working hard to fight off the inevitable ageing process with the usual aches
+                and pains that come with age. This perspective, my athletic experience, and building 20 years of
+                personal training experience have provided a great platform to support individuals to change their lives
+                irrespective of age, weight, fitness levels or physical ability.</p>
+        </div>
+        <img src="images/richard.jpg" alt="Richard Wilder" class="about-image">
+    </section>
+
+    <section id="contact-insta" class="container py-5 d-flex align-items-start">
+        <!-- Contact Section -->
+        <div id="contact" class="contact-text flex-grow-1">
+            <h2>Contact - Get Event-Ready Now!</h2>
+            <p><strong>Richard Wilder PT</strong></p>
+            <p>Phone: <a href="tel:07815118647">07815 118647</a></p>
+            <p>Email: <a href="mailto:richardwilderpt@outlook.com">richardwilderpt@outlook.com</a></p>
+            <form id="contact-form" class="mt-4">
+                <input type="text" id="name" placeholder="Your Name" required class="form-control mb-3">
+                <input type="email" id="email" placeholder="Your Email" required class="form-control mb-3">
+                <textarea id="message" placeholder="Your Message" required class="form-control mb-3"></textarea>
+                <button type="submit" class="btn btn-warning">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Instagram Embed (Without Heading) -->
+
+            <div id="instagram" class="instagram-container">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DG8lejrteSK/" data-instgrm-version="14"></blockquote>
+            </div>
+        
+    </section>
+
+
+
+    <!-- Instagram Embed Script DEIR9aHNzaq
+            -->
+    <script async src="https://www.instagram.com/embed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

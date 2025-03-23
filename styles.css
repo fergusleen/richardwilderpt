@@ -1,0 +1,390 @@
+body {
+    font-family: 'Brutal Type', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Also ensure all text inherits this new font, you might want to explicitly specify: */
+h1, h1, h2, h3, h4, h5, h6, .navbar, .nav-link, .lead, .btn, input, textarea {
+    font-family: 'Brutal Type', sans-serif !important;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+@import url('https://fonts.cdnfonts.com/css/brutal-type');
+
+.navbar-brand {
+    font-family: 'Brutal Type', sans-serif;
+    font-size: 1.6rem;
+    color: #D4ED31 !important; /* Optional: match site accent color */
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.navbar-brand span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+    transform: scale(2);
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-brand .brand-text {
+    font-family: 'Brutal Type', sans-serif;
+    color: #D4ED31;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.navbar-brand .brand-text span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar .dropdown-menu {
+    background-color: #333;
+}
+
+.navbar .dropdown-item {
+    color: #fff;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #555;
+}
+
+
+.brand-text {
+    display: inline-block;
+    line-height: 1.1;
+    font-family: 'Brutal Type', sans-serif;
+    color: #D4ED31;
+    font-weight: 700;
+    text-align: center; /* Added to center the text */
+}
+
+.brand-text span {
+    font-size: 1rem; /* Adjust size as needed */
+    font-weight: 400; /* Slightly lighter for visual hierarchy */
+    display: inline-block;
+}
+.brand-text span {
+    font-size: 0.8em; /* Slightly smaller for 'PT' */
+}
+
+.bg-secondary {
+    background-color: rgba(108, 117, 125, 0.8) !important; /* More transparent */
+    border-radius: 15px; /* Rounded edges */
+    padding: 20px;
+}
+
+#hero {
+    position: relative;
+    background: url('hyrox-training.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: #D4ED31;
+    /*margin-top: 80px; /* Adjusted to prevent content from being hidden behind navbar */
+}
+
+#hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#hero h2, #hero p, #hero .btn-warning {
+    position: relative;
+    z-index: 2;
+}
+
+#hero h2 {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.btn-warning {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #D4ED31;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #D4ED31;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+button {
+    background: #D4ED31;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #D4EDFF;
+}
+
+.social-links a {
+    color: #D4ED31;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+.navbar-brand img {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* .navbar-brand img:hover {
+    transform: scale(4);
+} */
+
+
+/* Style the Instagram embed container */
+#insta {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure embedded content (iframe) blends well */
+.instagram-media {
+    background-color: #000 !important;
+    color: #fff !important;
+    max-width: 100% !important;
+    margin: auto;
+    display: block;
+    padding: 10px; /* Optional: Adds some spacing */
+    border-radius: 10px; /* Optional: Rounds corners */
+}
+
+/* Ensure the blockquote inside the embed follows the theme */
+.instagram-media blockquote {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+
+
+
+.about-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    margin-left: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+section img {
+    flex-shrink: 0; /* prevents shrinking on smaller screens */
+}
+
+
+/* Make it responsive */
+@media (max-width: 768px) {
+    #approach, 
+    #services, 
+    #testimonials,
+    #achievements,
+    #faq-container,
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image, .achievements-image, #faq-container img {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 0; /* Resets any margins from desktop layout */
+    }
+
+    .approach-text, .achievements-text, .faq-content, .flex-grow-1 {
+        width: 100%;
+    }
+}
+
+
+#achievements h2, #achievements h3, #achievements h4 {
+    font-family: 'Brutal Type', sans-serif;
+}
+
+#achievements ul {
+    padding-left: 1.2rem;
+}
+
+#achievements ul li {
+    margin-bottom: 8px;
+}
+
+
+#contact-insta {
+    display: flex;
+    justify-content: space-between; /* Keeps Contact & Instagram side by side */
+    gap: 40px; /* Space between sections */
+    align-items: start; /* Aligns elements to the top */
+}
+
+.contact-text {
+    flex: 1.5; /* Makes Contact section wider */
+}
+
+.insta-content {
+    flex: 1; /* Allows Instagram embed to take up the right side */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px; /* Keeps embed size reasonable */
+        background-color: #000; /* Black background */
+        color: #fff; /* White text */
+        padding: 20px;
+    
+}
+
+
+/* Responsive: Stack sections on smaller screens */
+@media (max-width: 768px) {
+    #contact-insta {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .insta-content {
+        max-width: 100%;
+    }
+}
+
+
+.navbar-collapse {
+    transition: height 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    border: none; /* Optional: removes the border on the button */
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-button {
+    background-color: #333;
+    color: #fff;
+    font-weight: 700;
+}
+
+.accordion-item {
+    background-color: #222;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+
+#faq-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* <-- Important change */
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#faq-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#instagram {
+    background-color: rgba(108, 117, 125, 0.8); /* matches your other grey sections */
+    border-radius: 15px;
+    padding: 30px;
+}
+
+#instagram .instagram-container {
+    max-width: 500px; /* adjust based on preference */
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#instagram iframe {
+    border-radius: 15px;
+}
+
+#instagram h2 {
+    font-family: 'Brutal Type', sans-serif;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
