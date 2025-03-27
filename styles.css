@@ -22,7 +22,7 @@ h1, h1, h2, h3, h4, h5, h6, .navbar, .nav-link, .lead, .btn, input, textarea {
 .navbar-brand {
     font-family: 'Brutal Type', sans-serif;
     font-size: 1.6rem;
-    color: #D4ED31 !important; /* Optional: match site accent color */
+    color: #FFED00 !important; /* Optional: match site accent color */
     line-height: 1.1;
     font-weight: 700;
 }
@@ -50,7 +50,7 @@ h1, h1, h2, h3, h4, h5, h6, .navbar, .nav-link, .lead, .btn, input, textarea {
 
 .navbar-brand .brand-text {
     font-family: 'Brutal Type', sans-serif;
-    color: #D4ED31;
+    color: #FFED00;
     font-size: 1.6rem;
     font-weight: 700;
     text-align: center;
@@ -79,7 +79,7 @@ h1, h1, h2, h3, h4, h5, h6, .navbar, .nav-link, .lead, .btn, input, textarea {
     display: inline-block;
     line-height: 1.1;
     font-family: 'Brutal Type', sans-serif;
-    color: #D4ED31;
+    color: #FFED00;
     font-weight: 700;
     text-align: center; /* Added to center the text */
 }
@@ -107,7 +107,7 @@ h1, h1, h2, h3, h4, h5, h6, .navbar, .nav-link, .lead, .btn, input, textarea {
     align-items: center;
     justify-content: center;
     text-align: left;
-    color: #D4ED31;
+    color: #FFED00;
     /*margin-top: 80px; /* Adjusted to prevent content from being hidden behind navbar */
 }
 
@@ -138,7 +138,7 @@ h1, h1, h2, h3, h4, h5, h6, .navbar, .nav-link, .lead, .btn, input, textarea {
     font-weight: bold;
     padding: 15px 30px;
     border-radius: 5px;
-    background-color: #D4ED31;
+    background-color: #FFED00;
 }
 
 section {
@@ -147,7 +147,7 @@ section {
 
 h2 {
     font-size: 2.5em;
-    color: #D4ED31;
+    color: #FFED00;
 }
 
 ul {
@@ -161,7 +161,7 @@ ul li {
 }
 
 button {
-    background: #D4ED31;
+    background: #FFED00;
     color: #000;
     padding: 10px 20px;
     border: none;
@@ -170,11 +170,11 @@ button {
 }
 
 button:hover {
-    background: #D4EDFF;
+    background: #FFFD00;
 }
 
 .social-links a {
-    color: #D4ED31;
+    color: #FFED00;
     text-decoration: none;
     font-size: 1.2em;
     margin: 10px;
