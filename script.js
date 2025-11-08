@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-    const eventDate = new Date("2025-05-31"); // Set exact event date here
+    const eventDate = new Date("2026-04-29"); // Set exact event date here
     const daysLeftElement = document.getElementById("days-left");
 
     function updateCountdown() {
